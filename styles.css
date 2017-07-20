@@ -1,0 +1,168 @@
+body {
+	background-color: #E6E6E6;
+}
+.link_grande {
+	font-family: inherit;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.link_peque {
+	display: block;
+	font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article {
+	    border-bottom-style: groove;
+}
+
+span {
+	font-family: sans-serif;
+}
+
+.texto_peque {
+	font-size: small;
+}
+.text_color_1 {
+	color: #045FB4;
+	font-weight: 600;
+}
+.text_color2 {
+	color: #045FB4;
+}
+
+.color_opinion {
+	background-color: #045FB4;
+	color: #FFFFFF;
+	font-family: sans-serif;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.cabecera {
+	margin: 5px;
+}
+
+.cabecera_main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 40%;
+}
+
+.menu {
+	background-color: #0869D0;
+	color: #FFFFFF;
+	font-family: sans-serif;
+}
+
+.noticias {
+	background-color: #FBF313;
+}
+
+.menu_ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+}
+
+.menu_ul li {
+	margin: 10px;
+	font-size: 14px;
+
+}
+
+.section_color {
+	background-color: #FFFFFF;
+    padding: 0 15px;
+}
+
+.section1 {
+	width: 50%;
+}
+
+.section2 {
+	width: 20%;
+	border-style: none dashed none;
+    border-width: thin;
+}
+.section2 img {
+	width: 140px;
+}
+.section3 {
+	width: 30%;
+}
+
+.section3 article{
+	border-bottom-style: dashed;
+    border-width: thin;
+}
+
+.titulo_articulo {
+	margin-bottom: 8px;
+}
+.sub_titulo_articulo{
+	font-family: arial;
+    margin: 0;
+}
+
+.texto_noticia {
+	margin-top: 8px;
+	font-family: sans-serif;
+	font-size: smaller;
+}
+
+.titulo_articulo-principal { 
+	margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_articulo-principal img {
+	width: 90%;
+}
+
+.imagen_opinion {
+	width: 85px;
+	position: relative;
+    left: 103px;
+}
+
+.tarjeta_titulo{
+	position: relative;
+    bottom: 80px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.titulo_columna_opinion {
+	font-family: serif;
+    font-size: small;
+}
+
+.seccion_opinion {
+	position: relative;
+    bottom: 54px;
+}
+
+.articulos_opinion {
+	height: 110px;
+}
+
+.tarjeta_opinion {
+	margin-top: 8px;
+}
+
+.fecha {
+	display: block;
+}
